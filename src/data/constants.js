@@ -446,7 +446,7 @@ export const projects = [
     date: "Jan 2022 - Mar 2022",
     description:
        "A Daily-Todo-Dashboard Web App made with React JS, Redux, and Material UI.It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image: DailyTodoDashBoard,
+    image: "src/images/Daily Todo DashBoard website screen.png",
     tags: [
 
       "	Html",
@@ -508,7 +508,7 @@ export const projects = [
     title: "Swarg Food Online Order",
     date: "Jan 2021",
     description:
-      " Swarg Food Online Order is providing a seamless and user-friendly platform for customers to browse, choose, and order food from their preferred eateries. The application serves to both users and restaurant owners, including features that improve the overall meal ordering and delivery process. The technology is designed to digitize the traditional meal ordering handle, making it faster, user-friendly, and accessible.",
+      "",
     image:
       "",
     tags: [
