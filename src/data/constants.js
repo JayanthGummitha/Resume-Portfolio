@@ -508,7 +508,7 @@ export const projects = [
     title: "Swarg Food Online Order",
     date: "Jan 2021",
     description:
-      "",
+      " Swarg Food Online Order is providing a seamless and user-friendly platform for customers to browse, choose, and order food from their preferred eateries. The application serves to both users and restaurant owners, including features that improve the overall meal ordering and delivery process. The technology is designed to digitize the traditional meal ordering handle, making it faster, user-friendly, and accessible.",
     image:
       "",
     tags: [
