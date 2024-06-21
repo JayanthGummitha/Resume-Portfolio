@@ -1,6 +1,10 @@
 import BharatLife from '../images/BharatLife website screen.png';
 import CoffeeDays from '../images/CoffeeDays website screen.png';
 import DailyTodoDashBoard from '../images/Daily Todo DashBoard website screen.png';
+import collaborationInterface from '../images/collaboration-interface.png'
+import SwargFood from '../images/Swarg-food.png'
+import SpaceTechPro from '../images/Space-Tech-Pro.png'
+import OnlineBooks from '../images/Online-Books.png'
 
 export const Bio = {
   name: "Jayanth Gummitha",
@@ -388,60 +392,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "BharatLife",
-    date: "Jan 2021 - May 2021",
-    description:
-      " BharatLife is an awesome responsive ecommerce website which demonstrate all items those are uses in our daily life. Also it's feels like an  smooth experience while involving in the broswer.",
-    image: BharatLife,
-    tags: [
-      	"Html",
-        "Css",
-        "JavaScript",
-        "React", 
-        "React Icons",
-        "Hero Icons",
-         "React Hooks",
-         "Swiper modules",
-         "Form Kit Auto-Animation",
-         "Farmer Motion",
-        "Yarn Package",
-        "Vite",
-         "Bootstrap",
-
-    ],
-    category: "Frontend app",
-    github: "https://github.com/JayanthGummitha/BharatLife-Project",
-    webapp: "https://bharatlife.netlify.app/",
-  },
- 
-  {
     id: 1,
-    title: "Coffee Day",
-    date: "Jun 2021 - Dec 2021",
-    description:
-      "",
-    image: CoffeeDays,
-    tags: [
-      	 "Html",
-         "Css",
-         "Javascript",
-         "Tailwind",
-         "Bootstrap",
-         "React",
-         "React-Dom",
-         "React-router-dom",
-        "React-icons",
-        "React-scroll",
-        "Vite",     
-    ],
-    category: "Frontend app",
-    github: "https://github.com/JayanthGummitha/Coffee-Day-Project",
-    webapp: "https://coffeedays.netlify.app/",
-  },
-
-  {
-    id: 4,
     title: "Dail-Todo-Dashboard",
     date: "Jan 2022 - Mar 2022",
     description:
@@ -472,17 +423,122 @@ export const projects = [
     webapp: " https://daily-todo-dashboard.netlify.app/",
     
   },
-
+ 
+ 
   {
     id: 2,
-    title: "Collaboration Interface  ",
-    date: "Apr 2022 - Apr 2023",
+    title: "Coffee Day",
+    date: "Oct 2021 - Dec 2021",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-     image:
-      "",
+      "A Coffee-Day design is a product landing page that informs visitors about the various types of coffees available and encourages them to stay while providing a smooth or responsive experience with the website.",
+    image: CoffeeDays,
     tags: [
+      	 "Html",
+         "Css",
+         "Javascript",
+         "Tailwind",
+         "Bootstrap",
+         "React",
+         "React-Dom",
+         "React-router-dom",
+        "React-icons",
+        "React-scroll",
+        "Vite",     
+    ],
+    category: "Frontend app",
+    github: "https://github.com/JayanthGummitha/Coffee-Day-Project",
+    webapp: "https://coffeedays.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Online Books",
+    date: "July 2021 - Sep 2021",
+    description:
+      "A Online Books project is a demonstrating website that displays the best and most popular books for reading in order to preserve or gain a tranquil attitude for those who read on a daily basis in our technological environment.",
+    image: OnlineBooks,
+    tags: [
+      	 "Html",
+         "Css",
+         "Javascript",
+         "Tailwind CSS",
+         "Bootstrap",
+         "React",
+         "React-Dom",
+         "React-router-dom",
+        "React-icons",
+        "React-scroll",
+        "Vite",     
+    ],
+    category: "Frontend app",
+    github: "https://github.com/JayanthGummitha/Online-Book",
+    webapp: "https://search-online-books.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "BharatLife",
+    date: "Apr 2021 - Jun 2021",
+    description:
+      " BharatLife is an awesome responsive ecommerce website which demonstrate all items those are uses in our daily life. Also it's feels like an  smooth experience while involving in the broswer.",
+    image: BharatLife,
+    tags: [
+      	"Html",
+        "Css",
+        "JavaScript",
+        "React", 
+        "React Icons",
+        "Hero Icons",
+         "React Hooks",
+         "Swiper modules",
+         "Form Kit Auto-Animation",
+         "Farmer Motion",
+        "Yarn Package",
+        "Vite",
+         "Bootstrap",
+
+    ],
+    category: "Frontend app",
+    github: "https://github.com/JayanthGummitha/BharatLife-Project",
+    webapp: "https://bharatlife.netlify.app/",
+  },
+
  
+  {
+    id: 5,
+    title: "Space-Tech-Pro",
+    date: "Jan 2021 - Mar 2021",
+    description:
+       "Space-Tech-Pro is a basic demo website that provides a static experience with a small amount of animation to engage users and educate them on how space-related information is accessible to the public, particularly kids aspiring to be space scientists.",
+    image: SpaceTechPro,
+    tags: [
+
+  "	Html",
+  "	Css",
+  "	JavaScript",
+  "	Bootstrap",
+  "	React",
+  "	React-dom",
+  "	React-router-dom",
+  "	React-icons",
+  "tailwind CSS",
+  "	Vite",
+
+
+    ],
+    category: "Frontend app",
+    github: "https://github.com/JayanthGummitha/Space-Tech-Pro",
+    webapp: "https://space-tech-project.netlify.app/",
+    
+  },
+
+  {
+    id: 9,
+    title: "Collaboration Interface  ",
+    date: "May 2023 - May 2024",
+    description:
+      "Designed and developed the Coolaboration-interface project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+     image: collaborationInterface,
+    tags: [
+      "Java",
       "React",
       "Redux ",
       "Tailwind CSS",
@@ -492,25 +548,26 @@ export const projects = [
       "JSON Web Token (JWT)",
       "Spring Starter Mail ",
       "Razor pay",
-      "MySQL Payment Gateway.",
+      "MySQL Payment Gateway",
 
 
     ],
     category: "Java Full Stack app",
     github: "https://github.com/JayanthGummitha/Collaboration-Interface-Project",
     webapp: "https://project-management-interface.netlify.app/",
-    member: [
+    // member: [
       
-    ],
+    // ],
   },
   {
-    id: 8,
+    id: 10,
     title: "Swarg Food Online Order",
-    date: "Jan 2021",
+    date: "Apr 2022 - Apr 2023",
     description:
       " Swarg Food Online Order is providing a seamless and user-friendly platform for customers to browse, choose, and order food from their preferred eateries. The application serves to both users and restaurant owners, including features that improve the overall meal ordering and delivery process. The technology is designed to digitize the traditional meal ordering handle, making it faster, user-friendly, and accessible.",
-    image: DailyTodoDashBoard,
+    image: SwargFood,
     tags: [
+      "Java",
       "React",
       "Tailwind CSS",
       "Material UI ",
@@ -532,8 +589,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Worked as a freelance developer" },
-  { year: 2023, text: "Founded JavaScript Mastery" },
+  { year: 2022, text: "Interacted and Developed the skills." },
+  { year: 2023, text: "Founded Java as well as ReactJS Mastery" },
   { year: 2024, text: "Shared my projects with the world" },
   // { year: 2021, text: "Started my own platform" },
 ];
