@@ -1,11 +1,11 @@
 export const darkTheme = {
-    bg:"#1C1C27",
+    bg:"#050a14",
     bgLight: "#1C1E27",
     primary:"#854CE6",
     text_primary:"#F2F3F4",
     text_secondary:"#b1b2b3",
     card:"#171721",
-    card_light: '#191924',
+    card_light: '#050a19',
     button:"#854CE6",
     white:"#FFFFFF",
     black:"#000000",

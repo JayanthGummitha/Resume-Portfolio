@@ -356,39 +356,38 @@ export const education = [
     id: 0,
     img: "https://media.licdn.com/dms/image/C4D0BAQG_rHn4vTszUA/company-logo_200_200/0/1631338212159?e=2147483647&v=beta&t=jOIBW_CXOGkRyAblZfByD30tD3i6xhgjVd6q3T-mgUc",
     school: "Eastern Illinois University",
-    date: "Aug 2022 - Dec 2023",
+    date: "August 2022 - December 2023",
     grade: "4.0 / 4.0",
     desc: "I completed my Master's degree in Information Technology at Eastern Illinois University, Charleston IL. I have completed 4 semesters and have a CGPA of 4.0 . I have taken courses in Advance Java, Global in Technology, Research in Technology, Advance Database of Technology, Network of Technology, Management of Technology, Multimedia, Database Security and Reliability .",
     degree: "Masters of Technology - MS, Information Technology",
   },
- 
   {
-    id: 2,
+    id: 1,
     img: "https://storage.googleapis.com/ezap-prod/colleges/171/download.jpg",
     school: "Lingaya's Vidyapeeth, Faridabad",
-    date: "Aug 2017 - Jun 2021",
+    date: "August 2017 - August 2021",
     grade: "7.25",
     desc: "I completed my Bachelor's degree in Computer Science and Engineering at Lingaya's Vidyapeeth, Faridabad. I have  completed 8 semesters and have a CGPA of 7.25. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. ",
   },
   {
-    id: 3,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EUhbiBRcEoBWq-orHu4tSDn4SDUTXqA-KA&s",
     school: "Sri Gayatri Junior College, Hayanath Nagar",
-    date: "June 2015 - June 2017",
+    date: "June 2015 - July 2017",
     grade: "73%",
     desc: "I completed my class 12 high school education at SriGayatri Junior College, HayatNagar, where I studied Science with Computer Science.",
     degree: "TSBIE(XII), Mathematics,Physics,Chemistry",
   },
   {
-    id: 4,
+    id: 3,
     img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/45415583_2172809032931211_2800203790911799296_n.jpg?stp=c90.0.540.540a_dst-jpg_p180x540&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CDk2tCeh9E0Q7kNvgGratVg&_nc_ht=scontent-dfw5-1.xx&oh=00_AYDdT_Ax5P3I3vKQPGdcJtAb3-GY420X6y7pQXqZ9eb86g&oe=668C1DB6",
     school: "Global Concept School, Kodad",
-    date: "June 2014 - March 2015",
+    date: "June 2014 - April 2015",
     grade: "8.5",
     desc: "I completed my class 10 education at Global Concept School, Kodad, where I studied Science with Computer Application.",
     degree: "BSETS(X), Science with Computer",
   },
-];
+ ];
 
 export const projects = [
   {
@@ -589,8 +588,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Interacted and Developed the skills." },
-  { year: 2023, text: "Founded Java as well as ReactJS Mastery" },
+  { year: 2022, text: "Worked as a freelance developer" },
+  { year: 2023, text: "Founded JavaScript Mastery" },
   { year: 2024, text: "Shared my projects with the world" },
   // { year: 2021, text: "Started my own platform" },
 ];

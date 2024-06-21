@@ -16,7 +16,9 @@ body{
   margin: 0px !important;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  
 }
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -39,3 +41,7 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #626970;
   }
+
+
+/* bubble-animation animation */
+
