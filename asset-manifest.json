@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/Resume-Portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/Resume-Portfolio/static/js/main.580e58b6.js",
+    "main.js": "/Resume-Portfolio/static/js/main.103d0728.js",
     "static/media/HeroImage.jpg": "/Resume-Portfolio/static/media/HeroImage.6f8220dea34e8042c007.jpg",
+    "static/media/Swarg-food.png": "/Resume-Portfolio/static/media/Swarg-food.fb89fd56e17da51ba762.png",
+    "static/media/Space-Tech-Pro.png": "/Resume-Portfolio/static/media/Space-Tech-Pro.b8ae473404b8e5e2ff2f.png",
     "static/media/CoffeeDays website screen.png": "/Resume-Portfolio/static/media/CoffeeDays website screen.eb668bf954ab05ca1d2b.png",
     "static/media/BharatLife website screen.png": "/Resume-Portfolio/static/media/BharatLife website screen.e473e53b37c589c4833f.png",
+    "static/media/Online-Books.png": "/Resume-Portfolio/static/media/Online-Books.6a878879812f1e4ddb19.png",
     "static/media/Daily Todo DashBoard website screen.png": "/Resume-Portfolio/static/media/Daily Todo DashBoard website screen.aa4146b6d5132d28d1be.png",
+    "static/media/collaboration-interface.png": "/Resume-Portfolio/static/media/collaboration-interface.61c85ecbd7d22f86a772.png",
     "index.html": "/Resume-Portfolio/index.html",
     "main.bf538fe7.css.map": "/Resume-Portfolio/static/css/main.bf538fe7.css.map",
-    "main.580e58b6.js.map": "/Resume-Portfolio/static/js/main.580e58b6.js.map"
+    "main.103d0728.js.map": "/Resume-Portfolio/static/js/main.103d0728.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.580e58b6.js"
+    "static/js/main.103d0728.js"
   ]
 }
