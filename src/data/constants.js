@@ -9,7 +9,7 @@ import OnlineBooks from '../images/Online-Books.png'
 export const Bio = {
   name: "Jayanth Gummitha",
   roles: [
-    "Java Full Stack Developer",
+    "Full Stack Developer",
     "Java Backend Developer",
     "ReactJS  Developer",
     
