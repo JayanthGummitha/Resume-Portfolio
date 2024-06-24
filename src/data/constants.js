@@ -18,7 +18,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/JayanthGummitha",
   resume:
-    "",
+    "https://drive.google.com/file/d/162O-mUEimHKAMdH5aSqAWlQmTV44eQ9D/view?usp=drive_link",
   linkedin: "www.linkedin.com/in/gummitha-jayanth-2104abc",
   insta: "https://www.instagram.com/jayanth_reddy2104/",
  
