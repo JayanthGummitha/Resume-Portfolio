@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
+import ParticlesBackground from '../Particles/ParticlesBackground'
 
 
 const Projects = ({openModal,setOpenModal}) => {
@@ -10,6 +11,7 @@ const Projects = ({openModal,setOpenModal}) => {
   return (
     <Container id="projects">
       <Wrapper>
+        <ParticlesBackground/>
         <Title>Projects</Title>
         <Desc>
           I have worked on a wide range of projects. From web application to web apps. Here are some of my projects.

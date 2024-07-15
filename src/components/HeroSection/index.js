@@ -4,11 +4,13 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import ParticlesBackground from '../Particles/ParticlesBackground';
 
 const HeroSection = () => {
     return (
         <div id="about">
             <HeroContainer>
+                <ParticlesBackground/>
                 <HeroBg>
                     <HeroBgAnimation />
                 </HeroBg>
