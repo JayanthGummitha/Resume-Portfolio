@@ -15,6 +15,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import StarsCanvas from "./components/HeroSection/StarBackground.js";
+import ParticlesBackground from "./components/Particles/ParticlesBackground.jsx";
 
 
 const Body = styled.div`
@@ -38,6 +40,7 @@ function App() {
       <Router >
       <Navbar />
         <Body>
+        <ParticlesBackground/>
           <HeroSection />
           <Wrapper>
             <Skills />

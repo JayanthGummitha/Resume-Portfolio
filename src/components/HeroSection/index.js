@@ -6,14 +6,16 @@ import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import '../../App.css'
 import {motion} from 'framer-motion'
-import StarsCanvas from './StarBackground';
+import StarsCanvas, { StarBackground } from './StarBackground';
 import zIndex from '@mui/material/styles/zIndex';
 import { height } from '@mui/system';
+import { Canvas } from '@react-three/fiber';
 
 const HeroSection = () => {
     return (
         <div id="about">
-               <HeroContainer>
+            
+               <HeroContainer >
             <HeroBg>
                 <HeroBgAnimation />
             </HeroBg>
@@ -87,4 +89,4 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection
+export default HeroSection;
