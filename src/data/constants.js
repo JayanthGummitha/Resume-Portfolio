@@ -26,6 +26,7 @@ export const Bio = {
 
 export const skills = [
   {
+    id:0,
     title: "Frontend",
     skills: [
       {
@@ -380,7 +381,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/45415583_2172809032931211_2800203790911799296_n.jpg?stp=c90.0.540.540a_dst-jpg_p180x540&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CDk2tCeh9E0Q7kNvgGratVg&_nc_ht=scontent-dfw5-1.xx&oh=00_AYDdT_Ax5P3I3vKQPGdcJtAb3-GY420X6y7pQXqZ9eb86g&oe=668C1DB6",
+    img: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/45415583_2172809032931211_2800203790911799296_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=c0-ajaJGHLwQ7kNvgEu7NBr&_nc_ht=scontent-dfw5-1.xx&oh=00_AYD8XXtwQsVbtNB_cbeOjBk3qVsg_q7u-YZB813MgJ18uQ&oe=66C111F6",
     school: "Global Concept School, Kodad",
     date: "June 2014 - April 2015",
     grade: "8.5",

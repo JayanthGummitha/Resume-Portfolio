@@ -9,7 +9,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
-
+import {motion} from "framer-motion"
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -78,11 +78,25 @@ const index = () => {
     return (
         <Container id="experience">
             <Wrapper>
+
+            <motion.div
+                  whileInView={{ opacity:1, scale:1 }}
+                  initial={{opacity:0,scale:0}}
+                  transition={{duration:1 }}
+                  >
+
+        
                 <Title>Experience</Title>
                 <Desc>
                 </Desc>
-                <TimelineSection>
+                 </motion.div>
+                    <TimelineSection>
                     <Timeline>
+                 <motion.div
+                  whileInView={{ opacity:1, scale:1 }}
+                  initial={{opacity:0,scale:0}}
+                  transition={{duration:1.5 }}
+                >
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
@@ -94,6 +108,7 @@ const index = () => {
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
+                    </motion.div>
                     </Timeline>
 
                 </TimelineSection>

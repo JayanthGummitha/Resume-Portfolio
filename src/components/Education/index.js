@@ -9,7 +9,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { education, experiences } from '../../data/constants';
 import EducationCard from '../Cards/EducationCard';
-
+import {motion} from "framer-motion";
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -81,12 +81,32 @@ const index = () => {
     return (
         <Container id="education">
             <Wrapper>
+
+                <motion.div 
+                 whileInView={{ opacity:1, y:0 }}
+                 initial={{opacity:0, y:-100 }}
+                 transition={{duration:1.5 }}
+                >
+
                 <Title>Education</Title>
+                </motion.div>
+                <motion.div
+                 whileInView={{ opacity:1, x:0 }}
+                 initial={{opacity:0, x:-100 }}
+                 transition={{duration:2 }}
+                >
+
                 <Desc>
                 My schooling has been a voyage of self-discovery and development. My educational background can be found follows.
                
                </Desc>
+                </motion.div>
                 <TimelineSection>
+                    <motion.div
+                     whileInView={{ opacity:1, scale:1 }}
+                     initial={{opacity:0, scale:0 }}
+                     transition={{duration:0.5 }}>
+
                     <Timeline>
                         {education.map((education,index) => (
                             <TimelineItem >
@@ -100,6 +120,7 @@ const index = () => {
                             </TimelineItem>
                         ))}
                     </Timeline>
+                    </motion.div>
 
                 </TimelineSection>
             </Wrapper>

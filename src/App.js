@@ -15,7 +15,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-import ParticlesBackground from "./components/Particles/ParticlesBackground.jsx";
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,10 +34,10 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      
       <Router >
       <Navbar />
         <Body>
-          <ParticlesBackground/>
           <HeroSection />
           <Wrapper>
             <Skills />

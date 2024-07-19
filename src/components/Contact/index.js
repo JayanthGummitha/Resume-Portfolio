@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
-
+import {motion} from "framer-motion"
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -144,8 +144,30 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
+      <motion.div 
+        initial={{opacity:0,scale:0}}
+        whileInView={{opacity:1,scale:1}}
+        transition={{duration:0.5}}
+
+      >
+      <Title>Contact</Title>
+      </motion.div>
+
+      <motion.div 
+        initial={{opacity:0,x:-100}}
+        whileInView={{opacity:1,x:0}}
+        transition={{duration:1}}
+        >
+
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+      </motion.div>
+      <motion.p 
+        initial={{opacity:0,scale:0}}
+        whileInView={{opacity:1,scale:1}}
+        transition={{duration:1}}
+        style={{width:"100%",display:"flex",justifyContent:"center"}}
+
+      >
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
@@ -154,6 +176,7 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+      </motion.p>
         <Snackbar
           open={open}
           autoHideDuration={6000}

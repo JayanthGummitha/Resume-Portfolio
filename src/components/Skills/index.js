@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
-
+import { motion } from "framer-motion"
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -121,27 +121,58 @@ const SkillImage = styled.img`
 
 const Skills = () => {
   return (
-    <Container id="skills">
+    <Container id="skills" style={{paddingTop:"50px"}}>
       <Wrapper>
-        <Title>Skills</Title>
+          <motion.div
+                    whileInView={{ opacity:1, y:0 }}
+                    initial={{opacity:0, y:-100 }}
+                    transition={{duration:0.5 }}
+                    
+                    > 
+                    <Title>
+                    Skills
+                    </Title>
+                 </motion.div>
+                 <motion.div
+                  whileInView={{ opacity:1, x:0 }}
+                  initial={{opacity:0, x:100 }}
+                  transition={{duration:1.2 }}
+                  >
+
         <Desc>Here are some of my skills on which I have been working on for the past 2 years.
         </Desc>
-        <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill>
-              <SkillTitle>{skill.title}</SkillTitle>
-              <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
-                    <SkillImage src={item.image}/>
-                    {item.name}
-                  </SkillItem>
-                ))}
-              </SkillList>
-            </Skill>
-          ))}
+                 </motion.div>
+        <motion.div
+         whileInView={{ opacity:1, x:0 }}
+         initial={{opacity:0, x:-100 }}
+         transition={{duration:1.5 }}
+          >
 
-        </SkillsContainer>
+
+          <SkillsContainer>
+          {skills.map((skill) =>
+
+             
+
+
+              <Skill>
+                <SkillTitle>{skill.title}</SkillTitle>
+                <SkillList>
+                  {skill.skills.map((item) => (
+
+                    <SkillItem>
+                      <SkillImage src={item.image} />
+                      {item.name}
+
+                    </SkillItem>
+                  ))}
+
+                </SkillList>
+              </Skill>
+            )}
+            </SkillsContainer> 
+          </motion.div>
+
       </Wrapper>
     </Container>
   )
