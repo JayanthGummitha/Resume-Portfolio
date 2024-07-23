@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+import {animate, motion}  from 'framer-motion';
 
 const Container = styled.div`
   display: flex;
@@ -130,7 +131,19 @@ const Contact = () => {
   return (
     <Container id="Contact">
       <Wrapper>
+        <motion.div
+        initial={{opacity:0,y:-100}}
+        whileInView={{opacity:1,y:0}}
+        transition={{duration:0.5}}
+        >
+
         <Title>Contact</Title>
+        </motion.div>
+        <motion.div
+        initial={{opacity:0,x:-100}}
+        whileInView={{opacity:1,x:0}}
+        transition={{duration:1,delay:0.5}}>
+
         <Desc
           style={{
             marginBottom: "0px",
@@ -138,6 +151,13 @@ const Contact = () => {
         >
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
+        </motion.div>
+        <motion.div
+        initial={{opacity:0,scale:0}}
+        whileInView={{opacity:1,scale:1}}
+        transition={{duration:0.5}}
+        style={{width:"100%",justifyContent:"center",alignItems:"center",display:"flex"}}>
+
         <ContactForm onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
@@ -146,6 +166,7 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" name="message" rows={4} />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+        </motion.div>
       </Wrapper>
     </Container>
   );
