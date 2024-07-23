@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume-Portfolio/static/css/main.f54c8465.css",
-    "main.js": "/Resume-Portfolio/static/js/main.dac62d20.js",
+    "main.css": "/Resume-Portfolio/static/css/main.61fb69e5.css",
+    "main.js": "/Resume-Portfolio/static/js/main.f5bd2c29.js",
     "static/media/HeroImage.jpg": "/Resume-Portfolio/static/media/HeroImage.6f8220dea34e8042c007.jpg",
     "static/media/Swarg-food.png": "/Resume-Portfolio/static/media/Swarg-food.fb89fd56e17da51ba762.png",
     "static/media/Space-Tech-Pro.png": "/Resume-Portfolio/static/media/Space-Tech-Pro.b8ae473404b8e5e2ff2f.png",
@@ -11,11 +11,11 @@
     "static/media/Daily Todo DashBoard website screen.png": "/Resume-Portfolio/static/media/Daily Todo DashBoard website screen.aa4146b6d5132d28d1be.png",
     "static/media/collaboration-interface.png": "/Resume-Portfolio/static/media/collaboration-interface.61c85ecbd7d22f86a772.png",
     "index.html": "/Resume-Portfolio/index.html",
-    "main.f54c8465.css.map": "/Resume-Portfolio/static/css/main.f54c8465.css.map",
-    "main.dac62d20.js.map": "/Resume-Portfolio/static/js/main.dac62d20.js.map"
+    "main.61fb69e5.css.map": "/Resume-Portfolio/static/css/main.61fb69e5.css.map",
+    "main.f5bd2c29.js.map": "/Resume-Portfolio/static/js/main.f5bd2c29.js.map"
   },
   "entrypoints": [
-    "static/css/main.f54c8465.css",
-    "static/js/main.dac62d20.js"
+    "static/css/main.61fb69e5.css",
+    "static/js/main.f5bd2c29.js"
   ]
 }
