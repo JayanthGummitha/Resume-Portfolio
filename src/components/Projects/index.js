@@ -10,7 +10,7 @@ const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
     <Container id="projects" style={{paddingTop:"30px"}}>
-      <ParticlesBackground/>
+     
       <Wrapper>
         <motion.div
         whileInView={{ opacity:1, y:0 }}

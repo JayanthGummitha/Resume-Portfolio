@@ -1,5 +1,6 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import styled from "styled-components";
 
 const Document = styled.img`
     display: none;
@@ -146,44 +147,96 @@ const Skill = styled.div`
 
 const ExperienceCard = ({ experience }) => {
     return (
-        <Card>
-            <Top>
-                <Image src={experience.img} />
-                <Body>
-                    <Role>{experience.role}</Role>
-                    <Company>{experience.company}</Company>
-                    <Date>{experience.date}</Date>
-                </Body>
-            </Top>
-            <Description>
-                
-                <p>As a recent master's degree in computer science graduate via Eastern Illinois University, I've   searching for employment as a Java Full Stack Developer in the software development sector. My academic background and project experience have given me a solid foundation in Java 8, Spring Boot, Microservices, MySQL, Hibernate, HTML, CSS, JavaScript, Bootstrap, and ReactJS.</p><br/>
-                 <p>Throughout my education, I have exhibited proficiency in designing and executing application systems that are designed to fit a variety of corporate demands and project objectives. I created strong solutions using advanced Java 8 technologies such as streams and lambda expressions. In addition, I used Spring framework concepts, followed the MVC design pattern, and used the Hibernate ORM framework for quick data persistence and querying.    My experience includes implementing Microservices using Spring Boot, where I created APIs and packed data into JSON for smooth delivery.  In every project I work on, I prioritize improving the user experience and satisfaction levels.</p><br/>
-                <p> I thrive in places that encourage cooperation, innovation, and continual learning. I am excited to join a team that shares my drive for quality and growth. I am confident that my talents, expertise, and proactive approach will be beneficial to your organization's success.</p><br/>
-                {/* {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
+    //     <VerticalTimelineElement
+    //   icon={
+    //     <img
+    //       width="100%"
+    //       height="100%"
+    //       alt={experience?.company}
+    //       style={{ borderRadius: "50%", objectFit: "cover" }}
+    //       src={experience?.img}
+    //     />
+    //   }
+    //   contentStyle={{
+    //     display: "flex",
+    //     flexDirection: "column",
+    //     gap: "12px",
+    //     background: "#1d1836",
+    //     color: "#fff",
+    //     boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 24px",
+    //     backgroundColor: "rgba(17, 25, 40, 0.83)",
+    //     border: "1px solid rgba(255, 255, 255, 0.125)",
+    //     borderRadius: "6px",
+    //   }}
+    //   contentArrowStyle={{
+    //     borderRight: "7px solid  rgba(255, 255, 255, 0.3)",
+    //   }}
+    //   date={experience?.date}
+    // >
+    //   <Top>
+    //     <Image src={experience?.img} />
+    //     <Body>
+    //       <Role>{experience?.role}</Role>
+    //       <Company>{experience?.company}</Company>
+    //       <Date>{experience?.date}</Date>
+    //     </Body>
+    //   </Top>
+    //   <Description>
+    //     {experience?.desc && <Span>{experience.desc}</Span>}
+    //     {experience?.skills && (
+    //       <>
+    //         <br />
+    //         <Skills>
+    //           <b>Skills</b>
+    //           <ItemWrapper>
+    //             {experience?.skills?.map((skill, index) => (
+    //               <Skill>• {skill}</Skill>
+    //             ))}
+    //           </ItemWrapper>
+    //         </Skills>
+    //       </>
+    //     )}
+    //   </Description>
+    // </VerticalTimelineElement>
+    
+      <Card>
+          {/* <Top>
+              <Image src={experience.img} />
+              <Body>
+                  <Role>{experience.role}</Role>
+                  <Company>{experience.company}</Company>
+                  <Date>{experience.date}</Date>
+              </Body>
+          </Top> */}
+          <Description>
+              
+              <p>As a recent master's degree in computer science graduate via Eastern Illinois University, I've   searching for employment as a Java Full Stack Developer in the software development sector. My academic background and project experience have given me a solid foundation in Java 8, Spring Boot, Microservices, MySQL, Hibernate, HTML, CSS, JavaScript, Bootstrap, and ReactJS.</p><br/>
+               <p>Throughout my education, I have exhibited proficiency in designing and executing application systems that are designed to fit a variety of corporate demands and project objectives. I created strong solutions using advanced Java 8 technologies such as streams and lambda expressions. In addition, I used Spring framework concepts, followed the MVC design pattern, and used the Hibernate ORM framework for quick data persistence and querying.    My experience includes implementing Microservices using Spring Boot, where I created APIs and packed data into JSON for smooth delivery.  In every project I work on, I prioritize improving the user experience and satisfaction levels.</p><br/>
+              <p> I thrive in places that encourage cooperation, innovation, and continual learning. I am excited to join a team that shares my drive for quality and growth. I am confident that my talents, expertise, and proactive approach will be beneficial to your organization's success.</p><br/>
+              {/* {experience?.desc &&
+                  <Span>{experience?.desc}</Span>
 
-                } */}
-                {experience?.skills &&
-                    <>
-                        <br />
-                        <Skills>
-                            <b>Skills:</b>
-                            <ItemWrapper>
-                                {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
-                                ))}
-                            </ItemWrapper>
-                        </Skills>
-                    </>
-                }
-            </Description>
-            {/* {experience.doc &&
-                <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
-                </a>
-            } */}
-        </Card>
+              } */}
+              {experience?.skills &&
+                  <>
+                      <br />
+                      <Skills>
+                          <b>Skills:</b>
+                          <ItemWrapper>
+                              {experience?.skills?.map((skill, index) => (
+                                  <Skill>• {skill}</Skill>
+                              ))}
+                          </ItemWrapper>
+                      </Skills>
+                  </>
+              }
+          </Description>
+          {/* {experience.doc &&
+              <a href={experience.doc} target="new">
+                  <Document src={experience.doc} />
+              </a>
+          } */}
+      </Card>
     )
 }
 

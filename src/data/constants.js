@@ -364,7 +364,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://storage.googleapis.com/ezap-prod/colleges/171/download.jpg",
+    img: "https://inurture.co.in/wp-content/uploads/2023/04/Lingayas-Vidyapeeth-Logo-1.png",
     school: "Lingaya's Vidyapeeth, Faridabad",
     date: "August 2017 - August 2021",
     grade: "7.25",

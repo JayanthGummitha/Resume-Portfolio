@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../../data/constants'
 import { motion } from "framer-motion"
+
+import { Tilt } from "react-tilt";
 const Container = styled.div`
 display: flex;
 flex-direction: column;
@@ -59,8 +61,8 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
+  background-color: rgba(17,25,40,0.83);
+  border: 1px solid rgba(255,255,255,0.125);
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
@@ -152,9 +154,7 @@ const Skills = () => {
           <SkillsContainer>
           {skills.map((skill) =>
 
-             
-
-
+             <Tilt>
               <Skill>
                 <SkillTitle>{skill.title}</SkillTitle>
                 <SkillList>
@@ -169,6 +169,9 @@ const Skills = () => {
 
                 </SkillList>
               </Skill>
+
+              </Tilt>
+              
             )}
             </SkillsContainer> 
           </motion.div>
