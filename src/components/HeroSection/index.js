@@ -2,6 +2,7 @@ import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
 import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, SocialMediaIcons, SocialMediaIcon, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.jpg'
+import favicon from '../../images/favicon.png'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
 import '../../App.css'
@@ -89,7 +90,7 @@ const HeroSection = () => {
                         >
                             <Tilt>
 
-                            <Img src={HeroImg} alt="hero-image" style={{width:"400px"}}  />
+                            <Img src={favicon} alt="hero-image" style={{width:"400px"}}  />
                             </Tilt>
                         </motion.div>
                     </HeroRightContainer>

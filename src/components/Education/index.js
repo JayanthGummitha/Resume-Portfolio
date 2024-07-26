@@ -75,7 +75,7 @@ const Education = () => {
             <EducationCard key={`education-${index}`} education={education} />
           ))}
         </VerticalTimeline>
-        <EarthCanvas />
+        {/* <EarthCanvas /> */}
       </Wrapper>
     </Container>
   );
