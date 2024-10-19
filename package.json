@@ -1,7 +1,7 @@
 {
   "name": "jayanth-reddy-gummitha-portfolio",
   "version": "0.1.0",
-  "homepage": "https://JayanthGummitha.github.io/",
+  "homepage": "https://JayanthGummitha.github.io/Resume-Portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
